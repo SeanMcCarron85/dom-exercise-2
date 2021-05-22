@@ -1,0 +1,25 @@
+.primary-nav {
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.5s all;
+    background-color: #f00fff;
+}
+
+.letters {
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.5s all;
+    background-color: #000fff;
+}
+
+.numbers {
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.5s all;
+    background-color: #ffff00;
+}
+
+.is-active {
+    max-height: 100px;
+    transition: 0.5s all;
+}
